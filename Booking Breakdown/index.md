@@ -1,0 +1,21 @@
+# Booking Breakdown
+
+[Source](https://mavenanalytics.io/data-drills/booking-breakdown)
+
+# Objective
+
+Your dataset contains ~40,000 reservations for a 200-room resort hotel in Portugal, including the booking date, check-in & check-out dates, and a cancellation flag.
+
+Your task is to calculate the resort's occupancy rate for each month in the dataset.
+
+- Occupancy rate = booked room-nights ÷ available room-nights
+- A guest occupies a room every night from their check-in date up to (but not including) their check-out date
+- Canceled reservations should not count toward occupancy
+
+# Control question
+
+What was the resort's occupancy rate in July 2016? (digits only, rounded down to the nearest percentage point))
+
+# Correct answer
+
+88
