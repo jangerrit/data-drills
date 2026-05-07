@@ -1,0 +1,18 @@
+# Libraries
+library("tidyverse")
+
+# Data
+path <- "~/Documents/GitHub/data-drills/Spot the Sale/"
+promotions <- read_csv(str_c(path, "promotions.csv"))
+orders <- read_csv(str_c(path, "orders.csv"))
+
+# Objective
+orders <- orders |>
+  left_join(
+    promotions,
+    join_by(between(order_date, start_date, end_date))
+  ) |>
+  select(order_id:promo_id)
+
+# Check
+count(filter(orders, is.na(promo_id)))
