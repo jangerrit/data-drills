@@ -23,5 +23,4 @@ market_values <- sales |>
 # Control question
 market_values |>
   filter(market_value > 15 * 10^6) |>
-  ungroup() |>
-  count()
+  glimpse()
