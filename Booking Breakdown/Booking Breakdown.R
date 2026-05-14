@@ -25,7 +25,7 @@ occupancy <- bookings |>
   ) |>
   group_by(
     Year = year(date),
-    Month = month(date, label = TRUE, abbr = TRUE)
+    Month = month(date, label = TRUE)
   ) |>
   summarise(
     Occupations = n(),
