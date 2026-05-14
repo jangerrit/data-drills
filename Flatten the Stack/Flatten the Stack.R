@@ -15,7 +15,7 @@ sales <- sales |>
     price = product.product_price
   )
 
-# Control question
+# Check
 sales |>
   filter(fulfillment == "Online") |>
   summarise(sales = round(sum(quantity * price)))

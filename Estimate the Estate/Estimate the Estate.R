@@ -21,7 +21,7 @@ market_values <- sales |>
     )
   )
 
-# Control question
+# Check
 market_values |>
   filter(market_value > 15 * 10^6) |>
   glimpse()
