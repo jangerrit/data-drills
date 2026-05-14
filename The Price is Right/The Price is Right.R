@@ -18,7 +18,5 @@ prices <- left_join(
 )
 
 # Check
-summarise(
-  prices,
-  revenue = round(sum(price * quantity))
-)
+prices |>
+  summarise(revenue = round(sum(price * quantity)))

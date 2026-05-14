@@ -34,4 +34,5 @@ occupancy <- bookings |>
   )
 
 # Check
-filter(occupancy, Year == 2016, Month == "Jul")
+occupancy |>
+  filter(Year == 2016, Month == "Jul")

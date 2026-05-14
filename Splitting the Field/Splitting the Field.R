@@ -13,4 +13,5 @@ positions <- players |>
   arrange(desc(Players))
 
 # Check
-slice(positions, 3L)
+positions |>
+  slice(3L)

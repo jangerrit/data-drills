@@ -17,5 +17,4 @@ close_prices <- close_prices |>
 # Check
 close_prices |>
   filter(`Golden Cross` == 1) |>
-  last() |>
-  pull(Close)
+  last()

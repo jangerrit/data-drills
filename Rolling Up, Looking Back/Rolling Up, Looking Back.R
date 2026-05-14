@@ -16,5 +16,5 @@ monthly_sales <- sales |>
   mutate(change = sales - lag(sales))
 
 # Check
-filter(monthly_sales, year == 2023, month == "May", store == "Astoria") |>
-  pull(change)
+monthly_sales |>
+  filter(year == 2023, month == "May", store == "Astoria")

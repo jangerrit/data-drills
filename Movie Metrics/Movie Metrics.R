@@ -28,4 +28,5 @@ users_activity <- users |>
   )
 
 # Check
-filter(users_activity, last_finished_movie_name == "Fight Club")
+users_activity |>
+  filter(last_finished_movie_name == "Fight Club")

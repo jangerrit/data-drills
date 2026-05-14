@@ -29,4 +29,5 @@ leaderboard <- streaks |>
   slice_head(n = 10)
 
 # Check
-slice(leaderboard, 3L)
+leaderboard |>
+  slice(3L)

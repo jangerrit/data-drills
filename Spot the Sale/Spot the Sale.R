@@ -16,4 +16,6 @@ orders <- orders |>
   select(order_id:promo_id)
 
 # Check
-count(filter(orders, is.na(promo_id)))
+orders |>
+  filter(is.na(promo_id)) |>
+  count()
