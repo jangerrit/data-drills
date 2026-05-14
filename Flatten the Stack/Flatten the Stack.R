@@ -1,6 +1,7 @@
 # Libraries
-library("tidyverse")
-library("jsonlite")
+library(readr)
+library(dplyr)
+library(jsonlite)
 
 # Data
 sales <- read_csv("~/Documents/GitHub/data-drills/Flatten the Stack/sales_orders.csv")

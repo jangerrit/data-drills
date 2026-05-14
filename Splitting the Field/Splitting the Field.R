@@ -1,5 +1,6 @@
 # Libraries
-library("tidyverse")
+library(readr)
+library(dplyr)
 
 # Data
 players <- read_csv("~/Documents/GitHub/data-drills/Splitting the Field/baseball_positions.csv")

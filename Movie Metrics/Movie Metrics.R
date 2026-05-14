@@ -1,5 +1,6 @@
 # Libraries
-library("tidyverse")
+library(readr)
+library(dplyr)
 
 # Data
 path <- "~/Documents/GitHub/data-drills/Movie Metrics/"

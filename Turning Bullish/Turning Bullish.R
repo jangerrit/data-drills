@@ -1,6 +1,7 @@
 # Libraries
-library("tidyverse")
-library("data.table")
+library(readr)
+library(dplyr)
+library(data.table)
 
 # Data
 close_prices <- read_csv("~/Documents/GitHub/data-drills/Turning Bullish/SPY_close_price_5Y.csv")

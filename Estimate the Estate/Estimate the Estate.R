@@ -1,5 +1,6 @@
 # Libraries
-library("tidyverse")
+library(readr)
+library(dplyr)
 
 # Data
 sales <- read_csv("~/Documents/GitHub/data-drills/Estimate the Estate/manhattan_property_sales.csv")

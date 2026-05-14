@@ -1,6 +1,8 @@
 # Libraries
-library("tidyverse")
-library("formattable")
+library(readr)
+library(dplyr)
+library(lubridate)
+library(formattable)
 
 # Data
 bookings <- read_csv("~/Documents/GitHub/data-drills/Booking Breakdown/hotel_bookings.csv", col_types = "iDDDDl")

@@ -1,6 +1,7 @@
 # Libraries
-library("tidyverse")
-library("data.tree")
+library(readr)
+library(dplyr)
+library(data.tree)
 
 # Data
 initech <- read_csv("~/Documents/GitHub/data-drills/Org Chart Overhaul/OfficeSpace.csv")
