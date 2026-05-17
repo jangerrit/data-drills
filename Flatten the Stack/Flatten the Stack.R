@@ -5,7 +5,7 @@ library(tidyr)
 library(jsonlite)
 
 # Data
-sales <- read_csv("~/Documents/GitHub/data-drills/Flatten the Stack/sales_orders.csv")
+sales <- read_csv("~/Documents/GitHub/data-drills/Flatten the Stack/sales_orders.csv", col_types = "dDcf")
 
 # Objective
 sales <- sales |>
