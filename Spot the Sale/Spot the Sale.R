@@ -4,7 +4,7 @@ library(dplyr)
 
 # Data
 path <- "~/Documents/GitHub/data-drills/Spot the Sale/"
-promotions <- read_csv(str_c(path, "promotions.csv"))
+promotions <- read_csv(str_c(path, "promotions.csv"), col_types = "ffDD")
 orders <- read_csv(str_c(path, "orders.csv"))
 
 # Objective

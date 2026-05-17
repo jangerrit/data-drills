@@ -3,7 +3,7 @@ library(readr)
 library(dplyr)
 
 # Data
-sales <- read_csv("~/Documents/GitHub/data-drills/Rolling Up, Looking Back/coffee_shop_sales.csv")
+sales <- read_csv("~/Documents/GitHub/data-drills/Rolling Up, Looking Back/coffee_shop_sales.csv", col_types = "iDfcid")
 
 # Objective
 monthly_sales <- sales |>
