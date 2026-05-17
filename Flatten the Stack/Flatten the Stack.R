@@ -1,6 +1,7 @@
 # Libraries
 library(readr)
 library(dplyr)
+library(tidyr)
 library(jsonlite)
 
 # Data
