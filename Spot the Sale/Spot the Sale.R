@@ -3,9 +3,8 @@ library(readr)
 library(dplyr)
 
 # Data
-path <- "~/Documents/GitHub/data-drills/Spot the Sale/"
-promotions <- read_csv(str_c(path, "promotions.csv"), col_types = "ffDD")
-orders <- read_csv(str_c(path, "orders.csv"))
+promotions <- read_csv("./Spot the Sale/promotions.csv", col_types = "ffDD")
+orders <- read_csv("./Spot the Sale/orders.csv")
 
 # Objective
 orders <- orders |>

@@ -4,7 +4,7 @@ library(dplyr)
 library(tidyr)
 
 # Data
-players <- read_csv("~/Documents/GitHub/data-drills/Splitting the Field/baseball_positions.csv")
+players <- read_csv("./Splitting the Field/baseball_positions.csv")
 
 # Objective
 positions <- players |>

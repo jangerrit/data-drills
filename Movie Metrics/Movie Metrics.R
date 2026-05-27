@@ -3,10 +3,8 @@ library(readr)
 library(dplyr)
 
 # Data
-path <- "~/Documents/GitHub/data-drills/Movie Metrics/"
-users <- read_csv(str_c(path, "users.csv"))
-# Read binary `finished` column as logical
-activity <- read_csv(str_c(path, "activity.csv"), col_types = "iiDcl")
+users <- read_csv("./Movie Metrics/users.csv")
+activity <- read_csv("./Movie Metrics/activity.csv", col_types = "iiDcl")
 
 # Objective
 users_activity <- users |>

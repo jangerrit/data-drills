@@ -5,7 +5,7 @@ library(lubridate)
 library(formattable)
 
 # Data
-bookings <- read_csv("~/Documents/GitHub/data-drills/Booking Breakdown/hotel_bookings.csv", col_types = "iDDDDl")
+bookings <- read_csv("./Booking Breakdown/hotel_bookings.csv", col_types = "iDDDDl")
 capacity <- 200
 
 # Objective

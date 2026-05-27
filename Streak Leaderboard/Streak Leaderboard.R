@@ -3,7 +3,7 @@ library(readr)
 library(dplyr)
 
 # Data
-streaks <- read_csv("~/Documents/GitHub/data-drills/Streak Leaderboard/LessonStreaks.csv")
+streaks <- read_csv("./Streak Leaderboard/LessonStreaks.csv")
 
 # Objective
 leaderboard <- streaks |>
