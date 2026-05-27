@@ -9,8 +9,8 @@ transactions <- read_csv(str_c(path, "transactions.csv"), col_types = "iiDfi")
 price_history <- read_csv(str_c(path, "price_history.csv"), col_types = "fDd")
 
 # Objective
-prices <- left_join(
-  transactions,
+prices <- transactions |>
+  left_join(
   price_history,
   join_by(
     pizza_id,
