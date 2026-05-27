@@ -1,6 +1,7 @@
 # Libraries
 library(readr)
 library(dplyr)
+library(lubridate)
 
 # Data
 sales <- read_csv("~/Documents/GitHub/data-drills/Rolling Up, Looking Back/coffee_shop_sales.csv", col_types = "iDfcid")

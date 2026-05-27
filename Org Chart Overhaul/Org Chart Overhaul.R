@@ -1,6 +1,7 @@
 # Libraries
 library(readr)
 library(dplyr)
+library(stringr)
 library(data.tree)
 
 # Data
