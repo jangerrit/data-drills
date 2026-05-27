@@ -1,6 +1,7 @@
 # Libraries
 library(readr)
 library(dplyr)
+library(purrr)
 library(tidyr)
 library(jsonlite)
 
