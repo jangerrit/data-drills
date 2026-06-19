@@ -3,7 +3,7 @@ library(readr)
 library(dplyr)
 
 # Data
-streaks <- read_csv("./Streak Leaderboard/LessonStreaks.csv")
+streaks <- read_csv("./streak-leaderboard/LessonStreaks.csv")
 
 # Objective
 leaderboard <- streaks |>

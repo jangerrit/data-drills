@@ -3,8 +3,8 @@ library(readr)
 library(dplyr)
 
 # Data
-promotions <- read_csv("./Spot the Sale/promotions.csv", col_types = "ffDD")
-orders <- read_csv("./Spot the Sale/orders.csv")
+promotions <- read_csv("./spot-the-sale/promotions.csv", col_types = "ffDD")
+orders <- read_csv("./spot-the-sale/orders.csv")
 
 # Objective
 orders <- orders |>

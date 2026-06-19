@@ -3,8 +3,8 @@ library(readr)
 library(dplyr)
 
 # Data
-users <- read_csv("./Movie Metrics/users.csv")
-activity <- read_csv("./Movie Metrics/activity.csv", col_types = "iiDcl")
+users <- read_csv("./movie-metrics/users.csv")
+activity <- read_csv("./movie-metrics/activity.csv", col_types = "iiDcl")
 
 # Objective
 users_activity <- users |>

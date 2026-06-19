@@ -5,7 +5,7 @@ library(stringr)
 library(data.tree)
 
 # Data
-initech <- read_csv("./Org Chart Overhaul/OfficeSpace.csv")
+initech <- read_csv("./org-chart-overhaul/OfficeSpace.csv")
 
 # Objective
 initech <- initech |>

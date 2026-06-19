@@ -3,7 +3,7 @@ library(readr)
 library(dplyr)
 
 # Data
-sales <- read_csv("./Estimate the Estate/manhattan_property_sales.csv")
+sales <- read_csv("./estimate-the-estate/manhattan_property_sales.csv")
 
 # Objective
 market_values <- sales |>

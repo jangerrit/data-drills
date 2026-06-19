@@ -4,8 +4,8 @@ library(dplyr)
 library(stringr)
 
 # Data
-transactions <- read_csv("./The Price is Right/transactions.csv", col_types = "iiDfi")
-price_history <- read_csv("./The Price is Right/price_history.csv", col_types = "fDd")
+transactions <- read_csv("./the-price-is-right/transactions.csv", col_types = "iiDfi")
+price_history <- read_csv("./the-price-is-right/price_history.csv", col_types = "fDd")
 
 # Objective
 prices <- transactions |>

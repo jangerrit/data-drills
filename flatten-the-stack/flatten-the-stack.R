@@ -6,7 +6,7 @@ library(tidyr)
 library(jsonlite)
 
 # Data
-sales <- read_csv("./Flatten the Stack/sales_orders.csv", col_types = "dDcf")
+sales <- read_csv("./flatten-the-stack/sales_orders.csv", col_types = "dDcf")
 
 # Objective
 sales <- sales |>

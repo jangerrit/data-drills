@@ -3,7 +3,7 @@ library(readr)
 library(dplyr)
 
 # Data
-transactions <- read_csv("./Cart Combos/grocery_transactions.csv", col_types = "iTiiccid")
+transactions <- read_csv("./cart-combos/grocery_transactions.csv", col_types = "iTiiccid")
 
 # Objective
 transaction_products <- transactions |>

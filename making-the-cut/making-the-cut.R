@@ -6,7 +6,7 @@ library(forcats)
 library(formattable)
 
 # Data
-marathon <- read_csv("./Making the Cut/marathon-data.csv", col_types = "iftt")
+marathon <- read_csv("./making-the-cut/marathon-data.csv", col_types = "iftt")
 
 # Objective
 summary <- marathon |>
