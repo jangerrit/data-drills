@@ -14,3 +14,4 @@ What local hour has the most ticket submissions? (24-hour format, 0–23)
 
 # Correct answer
 
+10
