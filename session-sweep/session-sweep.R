@@ -12,8 +12,12 @@ sessions |>
   arrange(user_id, timestamp) |>
   group_by(user_id) |>
   mutate(
-    new_session = replace_na(timestamp > lag(timestamp) + minutes(30), TRUE)
+    session_start = if_else(
+      row_number() == 1 | timestamp > lag(timestamp) + minutes(30),
+      timestamp,
+      NA
+    )
   ) |>
-  count(new_session) |>
-  filter(new_session == TRUE, n > 1)
-
+  fill(session_start) |>
+  summarise(sessions = n_distinct(session_start)) |>
+  filter(sessions > 1)
